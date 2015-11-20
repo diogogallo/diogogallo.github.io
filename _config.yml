@@ -1,6 +1,6 @@
 # Site settings
 
-url: "https://japorized.github.io"
+url: "https://diogogallo.github.io"
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (https://yourusername.github.io/repository-name)
@@ -13,26 +13,26 @@ baseurl: ""
 
 # Forces https everywhere in your website, except when you serve it locally
 
-force-https: True
+force-https: False
 
 #############
 # HTML Head #
 #############
 
-author: "Japorized"
+author: "Diogo Gallo"
 lang: "en"
-title: "{ Japorized }"
+title: "{ Diogo Gallo }"
 favicon: "/img/favicon.ico"
-description: "Japorized's personal blog. Blogging mainly for personal takes, sharing of interest, some development, and a little whining (sometimes)"
-keywords: "japorized, personal, blog, johnsonng"
+description: "Diogo Gallo's personal website and blog. Incluind my Resume/CV  and blogging mainly for software architecture and development world, personal takes, sharing of interest"
+keywords: "diogogallo, blog, developer, toronto, canada, resume, java, cloud"
 
 ################
 # Intro layout #
 ################
 
-black-favicon: "/img/black-favicon.ico"
+black-favicon: "/img/favicon.ico"
 background-img: "../img/intro-bg.jpg"
-me-img: "/img/avatar.png"
+me-img: "/img/avatar.jpeg"
 
 ##############################
 # Dynamic Text on the header #
