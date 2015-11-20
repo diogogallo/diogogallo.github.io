@@ -1,0 +1,42 @@
+
+<!-- Contact Start -->
+
+<section id="{{ page.title }}" class="container content-section text-center">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+
+          {{ page.content | markdownify }}
+
+          {% if site.email %}
+            {% if site.email contains '@' %}
+              {% assign newemail = site.email | split: '@' %}
+                <p>
+                <script>
+                  function join_at_email(user, domain){
+                  return (user && domain)?(user + "@" + domain):"";
+                  }
+                  document.write('<a href="mailto:'
+                  + join_at_email( "{{ newemail[0] }}", "{{ newemail[1] }}" )
+                  + '">'
+                  + join_at_email( "{{ newemail[0] }}", "{{ newemail[1] }}" )
+                  + '</a>'
+                  );
+                  </script>
+                </p>
+            {% else %}
+              <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+            {% endif %}
+          {% endif %}
+
+            <h4><span class="fa fa-twitter"></span> Tweets</h4>
+          <div class="twitterfeed">
+              <a class="twitter-timeline" href="https://twitter.com/Johnson_5756" data-widget-id="661794620444028928" data-chrome="transparent nofooter noheader noborders" data-tweet-limit="3" data-aria-polite="assertive"></a>
+            </div>
+            
+          {% include social-buttons.html %}
+
+        </div>
+    </div>
+</section>
+
+<!-- Contact End -->
