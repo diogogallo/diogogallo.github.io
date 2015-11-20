@@ -91,11 +91,13 @@ email: "johnson5756@live.com"
 
 social:
   - title: "facebook"
-    url: "https://facebook.com/Japorized"
+    url: "https://facebook.com/diogogallo"
   - title: "twitter"
-    url: "https://twitter.com/Johnson_5756"
+    url: "https://twitter.com/diogogallo"
   - title: "github"
-    url: "https://github.com/Japorized"
+    url: "https://github.com/diogogallo"
+  - title: "instagram"
+    url: "https://instagram.com/diogogallo"
   - title: "rss"
     url: "/feed.xml"
 
