@@ -21,8 +21,8 @@ force-https: False
 
 author: "Diogo Gallo"
 lang: "en"
-title: "{ Diogo Gallo }"
-favicon: "/img/favicon.ico"
+title: "Diogo Gallo"
+favicon: "/img/ico-codeview.ico"
 description: "Diogo Gallo's personal website and blog. Incluind my Resume/CV  and blogging mainly for software architecture and development world, personal takes, sharing of interest"
 keywords: "diogogallo, blog, developer, toronto, canada, resume, java, cloud"
 
@@ -30,7 +30,7 @@ keywords: "diogogallo, blog, developer, toronto, canada, resume, java, cloud"
 # Intro layout #
 ################
 
-black-favicon: "/img/favicon.ico"
+black-favicon: "/img/ico-codeview_big.ico"
 background-img: "../img/intro-bg.jpg"
 me-img: "/img/avatar.jpeg"
 
@@ -40,16 +40,13 @@ me-img: "/img/avatar.jpeg"
 
 dynamic-typing: True
 shuffle: True	# Shuffle the lines.
-loop: True
+loop: False
 loop-count:	False # Set False for infinite loop, or set any number for finite loop.
 type-speed:	10		# Default 10
-start-delay: 200	# Default 200
+start-delay: 200	# Default  
 delete-delay: 5000	# Default 5000
 lines:			# You can add HTML Tags in the Text
-  - text: "Are you afraid of falling hard while you fly high?"
-  - text: "Where’s your will to be weird?"
-  - text: "Don't stop dreaming! But do remember that reality matters still."
-  - text: "Do you not see that your troubles are simply a microcosm of a whole?"
+  - text: "<em>passionate</em> software architect<br>photography <em>enthusiastic</em><br><em>super-hero</em> daddy<br>creating <em>amazing</em> computer applications"
 
 ########
 # Blog #
@@ -62,7 +59,7 @@ paginate: 5
 fb-share: True
 twitter-share: True
 reddit-share: True
-disqus-shortname: "japorized"
+disqus-shortname: "diogogallo"
 
 ###############
 # Life Events #
@@ -132,3 +129,4 @@ sass:
 
 # Exclusion list from the generated _site
 exclude: ["Rakefile", "LICENSE", "readme.markdown", "vendor"]
+
