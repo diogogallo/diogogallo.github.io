@@ -18,17 +18,17 @@
 
         {% include about.html %}
 
+      {% elsif page.section-type == "skills" %}
+
+        {% include skills.html %}
+      
+      {% elsif page.section-type == "experience" %}
+
+        {% include experience.html %}
+
       {% elsif page.section-type == "latest-post" %}
 
-        {% include latest-post.html %}
-
-      {% elsif page.section-type == "study" %}
-
-        {% include study.html %}
-      
-      {% elsif page.section-type == "gallery" %}
-
-        {% include gallery.html %}
+        {% include latest-post.html %}        
 
       {% elsif page.section-type == "contact" %}
 

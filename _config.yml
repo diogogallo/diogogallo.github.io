@@ -83,7 +83,7 @@ career-img: "/img/career/default.png"
 # Contact layout #
 ##################
 
-email: "johnson5756@live.com"
+email: "diogogallo@gmail.com"
 
 ##################
 # Social Buttons #
@@ -117,9 +117,9 @@ social:
 
 pages_list:
   About: 'about'
+  Skills: 'skills'
+  Experience: 'experience'
   Blog: 'blog'
-  Study: 'study'
-  Gallery: 'gallery'
   Contact: 'contact'
 
 # Pagination path
