@@ -232,3 +232,35 @@ h1#cv_header {
         }
         
     }
+
+    /*
+     * Stars
+     */
+
+    .outer_starContainer {
+        display: inline-block;
+        
+        div {
+            &.label-left {
+                vertical-align: middle;
+                font-weight: bold;
+                font-size: 14px;
+                line-height: 14px;
+                margin-bottom: 5px;
+            }
+            
+            &.skill-bar {
+                background-color: #2e2e2e;
+                border: 1px solid #3f3f3f;
+                padding: 0;
+                margin-bottom: 20px;
+                
+                div.skill-width {
+                    height: 14px;
+                }
+            }
+        }
+        
+    }
+
+    
