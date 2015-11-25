@@ -3,69 +3,221 @@
 
 <section id="{{ page.title }}" class="container-fluid content-section text-center">
     <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
+        {{ page.content | markdownify }}
 
-          {{ page.content | markdownify }}
+        <div class="skills-block text-left" style="padding-left:200px">
+                
+                <div class="outer_starContainer container-fluid">
 
-          <div class="academics-block">
-
-        <div class="section-container">
-            
-            <!-- BEGIN bars -->
-            <div class="outer_starContainer">
-                <h3>Web Services</h3>
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="col-md-3 label-left">Affinity Designer</div>
-                        <input type="hidden" class="rating-tooltip-manual" data-readonly value="3"/>
-                        <div class="col-md-9 skill-bar hover" data-tooltip="87%">
-                            <div class="skill-width" style="background-color: #00ff27; width: 87%"></div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <span style="font-size:120%;font-weight:bold">PROGRAMMING LANGUAGES</span>
+                        </div>
+                        <div class="col-md-6">
+                            <span style="font-size:120%;font-weight:bold">DATABASE</span>
+                        </div>
+                    </div>    
+                    <div class="row">
+                        <div class="col-md-3">
+                            <ul class="fa-ul">
+                                <li><i class="fa-li fa fa-angle-right"></i><span style="font-size:102%">Java</span></li>
+                                <li><i class="fa-li fa fa-angle-right"></i><span style="font-size:102%">Groovy</span></li>
+                                <li><i class="fa-li fa fa-angle-right"></i><span style="font-size:102%">Javascript</span></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3">
+                            <input type="hidden" data-filled="fa fa-star fa-1g" data-empty="fa fa-star-o fa-1g"  class="rating-tooltip-manual" data-readonly value="4"/><br />
+                            <input type="hidden" data-filled="fa fa-star fa-1g" data-empty="fa fa-star-o fa-1g"  class="rating-tooltip-manual" data-readonly value="3"/><br />
+                            <input type="hidden" data-filled="fa fa-star fa-1g" data-empty="fa fa-star-o fa-1g"  class="rating-tooltip-manual" data-readonly value="2"/>
+                        </div>
+                         <div class="col-md-3">
+                            <ul class="fa-ul">
+                                <li><i class="fa-li fa fa-angle-right"></i><span style="font-size:102%">Oracle</span></li>
+                                <li><i class="fa-li fa fa-angle-right"></i><span style="font-size:102%">IBM DB2</span></li>
+                                <li><i class="fa-li fa fa-angle-right"></i><span style="font-size:102%">Microsoft SQL Server</span></li>
+                                <li><i class="fa-li fa fa-angle-right"></i><span style="font-size:102%">PostgreSQL</span></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3">
+                            <input type="hidden" data-filled="fa fa-star fa-1g" data-empty="fa fa-star-o fa-1g" class="rating-tooltip-manual" data-readonly value="4"/><br />
+                            <input type="hidden" data-filled="fa fa-star fa-1g" data-empty="fa fa-star-o fa-1g"  class="rating-tooltip-manual" data-readonly value="3"/><br />
+                            <input type="hidden" data-filled="fa fa-star fa-1g" data-empty="fa fa-star-o fa-1g"  class="rating-tooltip-manual" data-readonly value="3"/><br />
+                            <input type="hidden" data-filled="fa fa-star fa-1g" data-empty="fa fa-star-o fa-1g"  class="rating-tooltip-manual" data-readonly value="2"/><br />
                         </div>
                     </div>
-                    <div class="col-md-3">
-                        <div class="col-md-3 label-left">Photoshop</div>
-                        <div class="col-md-9 skill-bar hover" data-tooltip="72%">
-                            <div class="skill-width" style="background-color: #0080ff; width: 72%"></div>
+
+                    <br />
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <span style="font-size:120%;font-weight:bold">APPLICATION AND WEB SERVERS</span>
+                        </div>
+                        <div class="col-md-6">
+                            <span style="font-size:120%;font-weight:bold">FRAMEWORKS</span>
+                        </div>
+                    </div>    
+                    <div class="row">
+                        <div class="col-md-3">
+                            <ul class="fa-ul">
+                                <li><i class="fa-li fa fa-angle-right"></i><span style="font-size:102%">JBoss</span></li>
+                                <li><i class="fa-li fa fa-angle-right"></i><span style="font-size:102%">Websphere</span></li>
+                                <li><i class="fa-li fa fa-angle-right"></i><span style="font-size:102%">Weblogic</span></li>
+                                <li><i class="fa-li fa fa-angle-right"></i><span style="font-size:102%">Tomcat</span></li>
+                                <li><i class="fa-li fa fa-angle-right"></i><span style="font-size:102%">Jetty</span></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3">
+                            <input type="hidden" data-filled="fa fa-star fa-1g" data-empty="fa fa-star-o fa-1g"  class="rating-tooltip-manual" data-readonly value="5"/><br />
+                            <input type="hidden" data-filled="fa fa-star fa-1g" data-empty="fa fa-star-o fa-1g"  class="rating-tooltip-manual" data-readonly value="4"/><br />
+                            <input type="hidden" data-filled="fa fa-star fa-1g" data-empty="fa fa-star-o fa-1g"  class="rating-tooltip-manual" data-readonly value="4"/><br />
+                            <input type="hidden" data-filled="fa fa-star fa-1g" data-empty="fa fa-star-o fa-1g"  class="rating-tooltip-manual" data-readonly value="3"/><br />
+                            <input type="hidden" data-filled="fa fa-star fa-1g" data-empty="fa fa-star-o fa-1g"  class="rating-tooltip-manual" data-readonly value="3"/>
+                        </div>
+                         <div class="col-md-3">
+                            <ul class="fa-ul">
+                                <li><i class="fa-li fa fa-angle-right"></i><span style="font-size:102%">Enterprise Java Beans (EJB)</span></li>
+                                <li><i class="fa-li fa fa-angle-right"></i><span style="font-size:102%">Java Server Faces (JSF)</span></li>
+                                <li><i class="fa-li fa fa-angle-right"></i><span style="font-size:102%">Servlets/Java Server Pages (JSP)</span></li>
+                                <li><i class="fa-li fa fa-angle-right"></i><span style="font-size:102%">Apache Camel</span></li>
+                                <li><i class="fa-li fa fa-angle-right"></i><span style="font-size:102%">Spring Boot</span></li>
+                                <li><i class="fa-li fa fa-angle-right"></i><span style="font-size:102%">Spring Framework</span></li>
+                                <li><i class="fa-li fa fa-angle-right"></i><span style="font-size:102%">Hibernate</span></li>
+                                <li><i class="fa-li fa fa-angle-right"></i><span style="font-size:102%">Grails</span></li>
+                                <li><i class="fa-li fa fa-angle-right"></i><span style="font-size:102%">Bootstrap</span></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3">
+                            <input type="hidden" data-filled="fa fa-star fa-1g" data-empty="fa fa-star-o fa-1g" class="rating-tooltip-manual" data-readonly value="4"/><br />
+                            <input type="hidden" data-filled="fa fa-star fa-1g" data-empty="fa fa-star-o fa-1g"  class="rating-tooltip-manual" data-readonly value="3"/><br />
+                            <input type="hidden" data-filled="fa fa-star fa-1g" data-empty="fa fa-star-o fa-1g"  class="rating-tooltip-manual" data-readonly value="4"/><br />
+                            <input type="hidden" data-filled="fa fa-star fa-1g" data-empty="fa fa-star-o fa-1g"  class="rating-tooltip-manual" data-readonly value="4"/><br />
+                            <input type="hidden" data-filled="fa fa-star fa-1g" data-empty="fa fa-star-o fa-1g"  class="rating-tooltip-manual" data-readonly value="4"/><br />
+                            <input type="hidden" data-filled="fa fa-star fa-1g" data-empty="fa fa-star-o fa-1g"  class="rating-tooltip-manual" data-readonly value="3"/><br />
+                            <input type="hidden" data-filled="fa fa-star fa-1g" data-empty="fa fa-star-o fa-1g"  class="rating-tooltip-manual" data-readonly value="3"/><br />
+                            <input type="hidden" data-filled="fa fa-star fa-1g" data-empty="fa fa-star-o fa-1g"  class="rating-tooltip-manual" data-readonly value="2"/><br />
+                            <input type="hidden" data-filled="fa fa-star fa-1g" data-empty="fa fa-star-o fa-1g"  class="rating-tooltip-manual" data-readonly value="2"/><br />
                         </div>
                     </div>
-                    <div class="col-md-3">
-                        <div class="col-md-3 label-left">Wireframing</div>
-                        <div class="col-md-9 skill-bar hover" data-tooltip="68%">
-                            <div class="skill-width" style="background-color: #e19c00; width: 68%"></div>
+
+                    <br />
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <span style="font-size:120%;font-weight:bold">DATA EXCHANGE TECHNOLOGIES</span>
+                        </div>
+                        <div class="col-md-6">
+                            <span style="font-size:120%;font-weight:bold">BUILD AND CODE MANAGEMENT TOOLS</span>
+                        </div>
+                    </div>    
+                    <div class="row">
+                        <div class="col-md-3">
+                            <ul class="fa-ul">
+                                <li><i class="fa-li fa fa-angle-right"></i><span style="font-size:102%">REST</span></li>
+                                <li><i class="fa-li fa fa-angle-right"></i><span style="font-size:102%">SOAP</span></li>
+                                <li><i class="fa-li fa fa-angle-right"></i><span style="font-size:102%">JMS</span></li>
+                                <li><i class="fa-li fa fa-angle-right"></i><span style="font-size:102%">XML</span></li>
+                                <li><i class="fa-li fa fa-angle-right"></i><span style="font-size:102%">JSON</span></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3">
+                            <input type="hidden" data-filled="fa fa-star fa-1g" data-empty="fa fa-star-o fa-1g"  class="rating-tooltip-manual" data-readonly value="5"/><br />
+                            <input type="hidden" data-filled="fa fa-star fa-1g" data-empty="fa fa-star-o fa-1g"  class="rating-tooltip-manual" data-readonly value="5"/><br />
+                            <input type="hidden" data-filled="fa fa-star fa-1g" data-empty="fa fa-star-o fa-1g"  class="rating-tooltip-manual" data-readonly value="5"/><br />
+                            <input type="hidden" data-filled="fa fa-star fa-1g" data-empty="fa fa-star-o fa-1g"  class="rating-tooltip-manual" data-readonly value="5"/><br />
+                            <input type="hidden" data-filled="fa fa-star fa-1g" data-empty="fa fa-star-o fa-1g"  class="rating-tooltip-manual" data-readonly value="5"/>
+                        </div>
+                         <div class="col-md-3">
+                            <ul class="fa-ul">
+                                <li><i class="fa-li fa fa-angle-right"></i><span style="font-size:102%">ANT</span></li>
+                                <li><i class="fa-li fa fa-angle-right"></i><span style="font-size:102%">Gradle</span></li>
+                                <li><i class="fa-li fa fa-angle-right"></i><span style="font-size:102%">Git</span></li>
+                                <li><i class="fa-li fa fa-angle-right"></i><span style="font-size:102%">CVS</span></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3">
+                            <input type="hidden" data-filled="fa fa-star fa-1g" data-empty="fa fa-star-o fa-1g" class="rating-tooltip-manual" data-readonly value="3"/><br />
+                            <input type="hidden" data-filled="fa fa-star fa-1g" data-empty="fa fa-star-o fa-1g"  class="rating-tooltip-manual" data-readonly value="4"/><br />
+                            <input type="hidden" data-filled="fa fa-star fa-1g" data-empty="fa fa-star-o fa-1g"  class="rating-tooltip-manual" data-readonly value="5"/><br />
+                            <input type="hidden" data-filled="fa fa-star fa-1g" data-empty="fa fa-star-o fa-1g"  class="rating-tooltip-manual" data-readonly value="5"/><br />
+                        </div>
+                    </div>
+
+                    <br />
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <span style="font-size:120%;font-weight:bold">CONTINUOUS INTEGRATION TOOLS</span>
+                        </div>
+                        <div class="col-md-6">
+                            <span style="font-size:120%;font-weight:bold">ARCHITECTURAL PATTERNS</span>
+                        </div>
+                    </div>    
+                    <div class="row">
+                        <div class="col-md-3">
+                            <ul class="fa-ul">
+                                <li><i class="fa-li fa fa-angle-right"></i><span style="font-size:102%">Hudson/Jenkins</span></li>
+                                <li><i class="fa-li fa fa-angle-right"></i><span style="font-size:102%">Teamcity</span></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3">
+                            <input type="hidden" data-filled="fa fa-star fa-1g" data-empty="fa fa-star-o fa-1g"  class="rating-tooltip-manual" data-readonly value="3"/><br />
+                            <input type="hidden" data-filled="fa fa-star fa-1g" data-empty="fa fa-star-o fa-1g"  class="rating-tooltip-manual" data-readonly value="4"/><br />
+                        </div>
+                         <div class="col-md-3">
+                            <ul class="fa-ul">
+                                <li><i class="fa-li fa fa-angle-right"></i><span style="font-size:102%">Microservices</span></li>
+                                <li><i class="fa-li fa fa-angle-right"></i><span style="font-size:102%">SOA</span></li>
+                                <li><i class="fa-li fa fa-angle-right"></i><span style="font-size:102%">Multitier</span></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3">
+                            <input type="hidden" data-filled="fa fa-star fa-1g" data-empty="fa fa-star-o fa-1g" class="rating-tooltip-manual" data-readonly value="5"/><br />
+                            <input type="hidden" data-filled="fa fa-star fa-1g" data-empty="fa fa-star-o fa-1g"  class="rating-tooltip-manual" data-readonly value="3"/><br />
+                            <input type="hidden" data-filled="fa fa-star fa-1g" data-empty="fa fa-star-o fa-1g"  class="rating-tooltip-manual" data-readonly value="5"/><br />
+                        </div>
+                    </div>
+
+                    <br />
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <span style="font-size:120%;font-weight:bold">OTHERS</span>
+                        </div>
+                        <div class="col-md-6">
+                            <span style="font-size:120%;font-weight:bold">SOFT SKILLS</span>
+                        </div>
+                    </div>    
+                    <div class="row">
+                        <div class="col-md-3">
+                            <ul class="fa-ul">
+                                <li><i class="fa-li fa fa-angle-right"></i><span style="font-size:102%">Reuse and design patterns</span></li>
+                                <li><i class="fa-li fa fa-angle-right"></i><span style="font-size:102%">Agile Software Development</span></li>
+                                <li><i class="fa-li fa fa-angle-right"></i><span style="font-size:102%">Cloud Computing</span></li>
+                                <li><i class="fa-li fa fa-angle-right"></i><span style="font-size:102%">Amazon Web Services (AWS)</span></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3">
+                            <input type="hidden" data-filled="fa fa-star fa-1g" data-empty="fa fa-star-o fa-1g"  class="rating-tooltip-manual" data-readonly value="4"/><br />
+                            <input type="hidden" data-filled="fa fa-star fa-1g" data-empty="fa fa-star-o fa-1g"  class="rating-tooltip-manual" data-readonly value="5"/><br />
+                            <input type="hidden" data-filled="fa fa-star fa-1g" data-empty="fa fa-star-o fa-1g"  class="rating-tooltip-manual" data-readonly value="3"/><br />
+                            <input type="hidden" data-filled="fa fa-star fa-1g" data-empty="fa fa-star-o fa-1g"  class="rating-tooltip-manual" data-readonly value="3"/><br />
+                        </div>
+                         <div class="col-md-3">
+                            <ul class="fa-ul">
+                                <li><i class="fa-li fa fa-angle-right"></i><span style="font-size:102%">Leadership</span></li>
+                                <li><i class="fa-li fa fa-angle-right"></i><span style="font-size:102%">Problem solving</span></li>
+                                <li><i class="fa-li fa fa-angle-right"></i><span style="font-size:102%">Teamwork and Collaboration</span></li>
+                                <li><i class="fa-li fa fa-angle-right"></i><span style="font-size:102%">Flexibility</span></li>
+                                <li><i class="fa-li fa fa-angle-right"></i><span style="font-size:102%">Conflict resolution</span></li>
+                                <li><i class="fa-li fa fa-angle-right"></i><span style="font-size:102%">Coaching</span></li>
+                                <li><i class="fa-li fa fa-angle-right"></i><span style="font-size:102%">Ability to work under pressure</span></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3">
+
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="col-md-3 label-left">Affinity Designer</div>
-                        <div class="col-md-9 skill-bar hover" data-tooltip="87%">
-                            <div class="skill-width" style="background-color: #00ff27; width: 87%"></div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="col-md-3 label-left">Photoshop</div>
-                        <div class="col-md-9 skill-bar hover" data-tooltip="72%">
-                            <div class="skill-width" style="background-color: #0080ff; width: 72%"></div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="col-md-3 label-left">Wireframing</div>
-                        <div class="col-md-9 skill-bar hover" data-tooltip="68%">
-                            <div class="skill-width" style="background-color: #e19c00; width: 68%"></div>
-                        </div>
-                    </div>
-                </div>
-                <div style="clear: both; margin: 20px auto;"></div>
-                <br />
-                <br />
-                <center> <strong><span class="fa fa-wrench"></span> Tools</strong>
-
-                    <div class="dev_tools">Affinity Designer, Photoshop CS6</div>
-                </center>
-            </div>
-            <!-- END bars -->
-        </div>
-    </div>
         </div>
     </div>
 </section>
