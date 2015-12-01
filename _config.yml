@@ -46,7 +46,7 @@ type-speed:	10		# Default 10
 start-delay: 200	# Default  
 delete-delay: 5000	# Default 5000
 lines:			# You can add HTML Tags in the Text
-  - text: "<em>passionate</em> software architect<br>photography <em>enthusiastic</em><br><em>super-hero</em> daddy<br>creating <em>amazing</em> computer applications"
+  - text: "<strong>passionate</strong> software architect<br><br>photography <strong>enthusiastic</strong><br><br><strong>super-hero</strong> daddy<br><br>creating <strong>amazing</strong> computer applications"
 
 ########
 # Blog #
