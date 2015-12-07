@@ -1,9 +1,9 @@
 
 <!-- Experience Start -->
 
-<section id="{{ page.title }}" class="container content-section text-center">
+<section id="{{ page.title }}" class="container-fluid content-section text-center">
     <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
+        <div class="col-lg-12">
 
           {{ page.content | markdownify }}
 
@@ -18,9 +18,10 @@
               {% endcapture %}
 
               <li class="{{ class }}">
+                  <!--
                   <div class="timeline-image">
                       <img class="img-circle img-responsive" src="{{site.baseurl}}{{ event.image }}" alt="">
-                  </div>
+                  </div> -->
                   <div class="timeline-panel">
                       <div class="timeline-heading">
                           <h4>{{ event.date }}</h4>
