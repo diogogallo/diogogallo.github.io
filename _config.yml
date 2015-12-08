@@ -66,24 +66,27 @@ disqus-shortname: "diogogallo"
 ###############
 
 events:
-  - image: "/img/career/synchro.jpg"
-    date: "Since 2006"
-    description: "Sr. Software Engineer @ Synchro"
+  - image: "/img/career/synchro.png"
+    date: "Since 2012 / Software Architect @ Synchro"
+    description: "Currently acting as a Software Architect and Team Leader, moving solutions to Cloud environment using Microservices Architecture and responsible for the architecture and development of applications for the tax area, especially with electronic invoices and others electronic documents that have integration with government, serving major companies worldwide."
+  - image: "/img/career/synchro.png"
+    date: "Mar 2006 - Jun 2012 / Sr. Software Engineer @ Synchro"
+    description: "Responsible for the development of applications for the tax area, especially with electronic invoices (NF-e) and others electronic documents that have integration with government, serving major companies worldwide."
   - image: "/img/career/ibta.png"
-    date: "Apr 2005 - Apr 2006"
-    description: "Postgraduated in Software Engineering - SOA and Component based @ IBTA"
-  - image: "/img/career/IBOPE-logo.png"
-    date: "Mar 2003 - Feb 2006"
-    description: "Jr. Software Engineer @ IBOPE"
-  - image: "/img/career/logo_ipt.gif"
-    date: "Feb 2002 - Feb 2003"
-    description: "Intern @ Instituto de Pesquisas Tecnológicas"
+    date: "Apr 2005 - Apr 2006 / Postgraduated @ IBTA"
+    description: "Software Engineering - SOA and Component based"
+  - image: "/img/career/ibope.png"
+    date: "Mar 2003 - Feb 2006 / Jr. Software Engineer @ IBOPE"
+    description: "Worked in the development and maintenance of various projects, using Delphi and Java languages ​​and Microsoft SQL Server databases, exercising many different roles of software development, from requirements analysis to testing and deployment. Responsible for automation of all processes in Statistics Area, such as software for generation of samples for surveys and data tabulation."
+  - image: "/img/career/ipt.png"
+    date: "Feb 2002 - Feb 2003 / Intern @ Instituto de Pesquisas Tecnológicas"
+    description: ""
   - image: "/img/career/ufscar.png"
-    date: "Jan 1999 - Dec 2002"
-    description: "Bachelor's Degree in Computer Science @ Universidade Federal de São Carlos"
+    date: "Jan 1999 - Dec 2002 / Degree in Computer Science @ UFSCar"
+    description: "Bachelor's Degree in Computer Science at Universidade Federal de São Carlos"
 
 # First image of the Career timeline
-career-img: "/img/career/default.png"
+career-img: "/img/career/megadrive.jpg"
 
 ##################
 # Contact layout #
