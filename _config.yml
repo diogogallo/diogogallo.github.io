@@ -24,7 +24,7 @@ lang: "en"
 title: "Diogo Gallo"
 favicon: "/img/ico-codeview.ico"
 description: "Diogo Gallo's personal website and blog. Including my Resume/CV and blogging mainly for software architecture and development world, personal takes, sharing of interest"
-keywords: "diogogallo, blog, developer, toronto, canada, resume, java, cloud"
+keywords: "diogogallo, blog, developer, toronto, canada, resume, java, cloud, software"
 
 ################
 # Intro layout #
@@ -46,7 +46,7 @@ type-speed:	10		# Default 10
 start-delay: 200	# Default  
 delete-delay: 5000	# Default 5000
 lines:			# You can add HTML Tags in the Text
-  - text: "<strong>passionate</strong> software architect<br><br>photography <strong>enthusiastic</strong><br><br><strong>super-hero</strong> daddy<br><br>creating <strong>amazing</strong> computer applications"
+  - text: "<strong>passionate</strong> software engineer<br><br>photography <strong>enthusiastic</strong><br><br><strong>super-hero</strong> daddy<br><br>creating <strong>amazing</strong> computer applications"
 
 ########
 # Blog #
@@ -70,16 +70,16 @@ disqus-shortname: "diogogallo"
 
 events:
   - image: "/img/career/synchro.png"
-    date: "Since 2012 | Software Architect @ <a href=\"http://www.synchro.com.br/en\" target=\"_blank\">Synchro (Brazil)</a>"
-    description: "Currently acting as a Software Architect and Team Leader, moving solutions to Cloud environment using Microservices Architecture and responsible for the architecture and development of applications for the tax area, especially with electronic invoices and others electronic documents that have integration with government, serving major companies worldwide."
+    date: "Since 2012 | Senior Software Engineer @ <a href=\"http://www.synchro.com.br/en\" target=\"_blank\">Synchro (Brazil)</a>"
+    description: "Currently acting as a Software Engineer and Team Leader, moving solutions to Cloud environment using Microservices Architecture and responsible for the architecture and development of applications for the tax area, especially with electronic invoices and others electronic documents that have integration with government, serving major companies worldwide."
   - image: "/img/career/synchro.png"
-    date: "2006 - 2012 | Sr. Software Engineer @ <a href=\"http://www.synchro.com.br/en\" target=\"_blank\">Synchro (Brazil)</a>"
+    date: "2006 - 2012 | Intermediate Software Engineer @ <a href=\"http://www.synchro.com.br/en\" target=\"_blank\">Synchro (Brazil)</a>"
     description: "We developed a product that integrates and manage electronic invoice's transmission from ERPs to Government, and it is used by the largest companies from various sectors such as IBM, Dell, HP, Amazon, Google, Vale, Caterpillar, Canon, Carrefour, McDonalds, and over 300 other companies. I implemented several new features, worked with customers on product performance optimization, performed the last level of support to clients, and was product's technical leader, planning, designing and coordinating activities to ensure that goals or objectives had been accomplished, with high quality product generation."
   - image: "/img/career/ibta.png"
     date: "2005 - 2006 | Postgraduated @ <a href=\"http://www.ibta.edu.br\" target=\"_blank\">IBTA (Brazil)</a>"
     description: "Software Engineering - SOA and Component based"
   - image: "/img/career/ibope.png"
-    date: "2003 - 2006 | Jr. Software Engineer @ <a href=\"http://www.ibope.com\" target=\"_blank\">IBOPE (Brazil)</a>"
+    date: "2003 - 2006 | Junior Software Engineer @ <a href=\"http://www.ibope.com\" target=\"_blank\">IBOPE (Brazil)</a>"
     description: "Worked in the development and maintenance of various projects. Responsible for automation of all processes in Statistics Area, such as software for generation of samples for surveys and data tabulation, reducing the time to build a research from days to minutes."
   - image: "/img/career/ipt.png"
     date: "2002 - 2003 | Intern @ <a href=\"http://www.ipt.br/EN\" target=\"_blank\">Instituto de Pesquisas Tecnológicas (Brazil)</a>"
