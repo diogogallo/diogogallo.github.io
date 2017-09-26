@@ -69,9 +69,6 @@ disqus-shortname: "diogogallo"
 ###############
 
 events:
-  - image: "/img/career/univeris.png"
-    date: "Since 2016 | Senior Software Developer @ <a href=\"http://www.univeris.com/" target=\"_blank\">Univeris (Canada)</a>"
-    description: "Improving a Wealth Management solution"
   - image: "/img/career/bankofnova.jpg"
     date: "2016 - 2016 | Senior Java Developer @ <a href=\"http://www.scotiabank.com/ca/en" target=\"_blank\">Scotiabank (Canada)</a>"
     description: "Worked with LATAM projects in a cross-country environment, with teams in Canada and Chile, upgrading online banking technologies for Latin American countries. Involved in analyzing, designing and specification of Integration Services between Front End new technologies and Back End legacy systems."
